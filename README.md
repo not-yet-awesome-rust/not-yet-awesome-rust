@@ -16,6 +16,10 @@ Questions, concerns, something else you want to say? Contact me (@erichdongubler
 
 ## FAQ
 
+### I don't see what I'm looking for, is it actually missing?
+
+File an issue, and we'll do the research for you! :) KEEP IN MIND that this is an open-source project, and that manpower therein is limited -- the more specific you can get with your use case, the more likely it is you'll get a timely and informative response.
+
 ### I want to contribute!
 ### I don't see something I care about/think is {useful,important}!
 
