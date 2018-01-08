@@ -12,11 +12,16 @@ Questions, concerns, something else you want to say? Contact me (@erichdongubler
 
 ## Table of contents
 
+***TODO***
+
 ## FAQ
 
+### I want to contribute!
 ### I don't see something I care about/think is {useful,important}!
 
-If you're viewing this on the Github website, click the little pencil icon to the top right and use the Markdown editor to send us a PR ASAP!
+If you're viewing this on the Github website, [open this `README.md` file in the repo in your browser](https://github.com/ErichDonGubler/not-yet-awesome-rust/blob/master/README.md), click the little pencil icon at the top right, and use the Markdown editor to send us a PR ASAP:
+
+![Editing this from Github](github-edit-pencil-example.png)
 
 If you're not using Github...send us a PR anyway. We want to know!
 
