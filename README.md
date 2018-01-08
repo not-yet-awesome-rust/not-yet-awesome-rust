@@ -23,7 +23,7 @@ File an issue, and we'll do the research for you! :) KEEP IN MIND that this is a
 ### I want to contribute!
 ### I don't see something I care about/think is {useful,important}!
 
-If you're viewing this on the Github website, [open this `README.md` file in the repo in your browser](https://github.com/ErichDonGubler/not-yet-awesome-rust/blob/master/README.md), click the little pencil icon at the top right, and use the Markdown editor to send us a PR ASAP:
+If you're viewing this on the Github website, you can [edit this `README.md` file in your browser](https://github.com/ErichDonGubler/not-yet-awesome-rust/edit/master/README.md). Click the little pencil icon at the top right, and use the Markdown editor to send us a PR ASAP:
 
 ![Editing this from Github](github-edit-pencil-example.png)
 
