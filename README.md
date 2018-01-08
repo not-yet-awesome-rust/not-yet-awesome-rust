@@ -40,4 +40,3 @@ Open an issue so we can cross 'er out and make sure people know!
 
 ### Data forensics
 * Ability to parse `Registry.pol` files from Windows machines
-    * @erichdongubler is actually working on this -- but it's not on a public repo yet. :)
