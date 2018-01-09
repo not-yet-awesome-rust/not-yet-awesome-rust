@@ -27,3 +27,8 @@ See the [contributing guide](CONTRIBUTING.md) for information on what you can do
 
 #### Data forensics
 * Ability to parse `Registry.pol` files from Windows machines
+
+### Math / machine learning / data scienc
+* Sparse matrix libraries (SPRS library needs a lot of love)
+* Machine learning toolkit like scikit-learn in Python (both rust-learn and rusty-machine are insufficient)
+* Deep learning toolkit with GPU support a good flexibility (think Tensorflow or Chainer in Python)
