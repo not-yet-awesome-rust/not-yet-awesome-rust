@@ -27,3 +27,18 @@ See the [contributing guide](CONTRIBUTING.md) for information on what you can do
 
 #### Data forensics
 * Ability to parse `Registry.pol` files from Windows machines
+
+#### Data processing
+* DDS library [wiki](https://en.wikipedia.org/wiki/Data_Distribution_Service)
+
+#### Geospatial Information Systems
+* OGC standards - multiple crates for standards for encoding, sharing or manipulating geospatial data [link](http://www.opengeospatial.org/standards)
+* Low level GIS functions - rust aternative to [GDAL](http://www.gdal.org/)
+
+#### Geometry
+* [PCL](http://pointclouds.org/) equivalent - point clouds, essential 3D geometry functions
+* Voxel library, operations and representation of voxel data. 
+
+#### Mathematics
+* Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
+* Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
