@@ -26,9 +26,11 @@ See the [contributing guide](CONTRIBUTING.md) for information on what you can do
 ### Libraries
 
 #### Data forensics
+
 * Ability to parse `Registry.pol` files from Windows machines
 
-### Math / machine learning / data scienc
+#### Math, machine learning, data science
+
 * Sparse matrix libraries ([SPRS](https://github.com/vbarrielle/sprs) library needs some love, since sparse/dense matrix products are super [slow](https://github.com/vbarrielle/sprs/issues/125), otherwise is quite good)
 * Machine learning toolkit like scikit-learn in Python (both rust-learn and rusty-machine are insufficient). Rust-learn only supports classification, rusty-machines misses support for sparse data and serialization. Both of them miss quite common unsupervised techniques (like PCA).
 * Deep learning toolkit with GPU support a good flexibility (think Tensorflow or Chainer in Python). Most of the current libraries are either simplistic (you cannot do seq2seq network in them for example), or miss GPU support.
