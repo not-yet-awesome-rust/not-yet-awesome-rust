@@ -18,7 +18,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 
 ### Documentation
 
-### Stack Overflow
+#### Stack Overflow
 
 * There are many older Rust questions on Stack Overflow that wouldn't work with today's Rust because of syntax that has changed since the release of 1.0, or that may have better solutions because of other Rust ecosystem developments.
     * See [#4](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/4) for an SO query and a list of these known issues!
