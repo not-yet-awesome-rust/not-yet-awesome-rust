@@ -8,7 +8,7 @@ The purpose of this list is twofold:
     * The definition of "specific" and "robust" for this list is yet to be determined!
 * Encourage the Rust community to approach gaps in the Rust ecosystem by providing this list as a point of collaboration!
 
-See the [contributing guide](CONTRIBUTING.md) for information on what you can do to help or if you have questions about this list!
+You can jump right into editing this file [here](https://github.com/ErichDonGubler/not-yet-awesome-rust/edit/master/README.md). See the [contributing guide](CONTRIBUTING.md) for information on what you can do to help or if you have questions about this list!
 
 ## Table of contents
 
