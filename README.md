@@ -39,12 +39,12 @@ See the [contributing guide](CONTRIBUTING.md) for information on what you can do
 * DDS library [wiki](https://en.wikipedia.org/wiki/Data_Distribution_Service)
 
 #### Geospatial Information Systems
-* OGC standards - multiple crates for standards for encoding, sharing or manipulating geospatial data [link](http://www.opengeospatial.org/standards)
-* Low level GIS functions - rust aternative to [GDAL](http://www.gdal.org/)
+* OGC standards - multiple crates for standards for encoding, sharing or manipulating geospatial data [link](http://www.opengeospatial.org/standards). There's already a create for GeoJSON but none of the others appear to have crates.
+* More complete GDAL wrapper (or pure rust alternative). (rust-gdal)[https://github.com/georust/rust-gdal] is an incomplete wrapper so needs work
 
 #### Geometry
 * [PCL](http://pointclouds.org/) equivalent - point clouds, essential 3D geometry functions
-* Voxel library, operations and representation of voxel data. 
+* Voxel library, operations and representation of voxel data. There are some efforts but none look suitable for working on domains like medical data, more geared towards game development.
 
 #### Mathematics
 * Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
