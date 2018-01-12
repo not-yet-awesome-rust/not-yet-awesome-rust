@@ -12,7 +12,21 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 
 ## Table of contents
 
-***TODO***
+<!--
+    To update this TOC, navigate to http://tableofcontent.eu and paste this Github repo's link.
+    After you've generated the TOC, fluff up the output like so:
+
+    1. Remove everything until `The List`, including the `The List` header itself.
+    2. Fix the indentation to use 4 spaces instead of 2.
+    3. Profit!
+-->
+ - [Documentation](#documentation)
+     - [Stack Overflow](#stack-overflow)
+ - [Libraries](#libraries)
+   - [XML](#xml)
+   - [Data forensics](#data-forensics)
+   - [Math, machine learning, data science](#math-machine-learning-data-science)
+
 
 ## The List
 
