@@ -20,12 +20,16 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     2. Fix the indentation to use 4 spaces instead of 2.
     3. Profit!
 -->
- - [Documentation](#documentation)
-     - [Stack Overflow](#stack-overflow)
- - [Libraries](#libraries)
-   - [XML](#xml)
-   - [Data forensics](#data-forensics)
-   - [Math, machine learning, data science](#math-machine-learning-data-science)
+- [Documentation](#documentation)
+    - [Stack Overflow](#stack-overflow)
+- [Libraries](#libraries)
+    - [Data forensics](#data-forensics)
+    - [Data processing](#data-processing)
+    - [Geometry](#geometry)
+    - [Geospatial Information Systems](#geospatial-information-systems)
+    - [Machine Learning](#machine-learning)
+    - [Mathematics](#mathematics)
+    - [XML](#xml)
 
 
 ## The List
@@ -46,13 +50,13 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 #### Data processing
 * DDS library [wiki](https://en.wikipedia.org/wiki/Data_Distribution_Service)
 
-#### Geospatial Information Systems
-* OGC standards - multiple crates for standards for encoding, sharing or manipulating geospatial data [link](http://www.opengeospatial.org/standards). There's already a crate for [GeoJSON](https://crates.io/crates/geojson) but none of the others appear to have crates.
-* More complete GDAL wrapper (or pure rust alternative). [rust-gdal](https://github.com/georust/rust-gdal) is an incomplete wrapper so needs work
-
 #### Geometry
 * [PCL](http://pointclouds.org/) equivalent - point clouds, essential 3D geometry functions
 * Voxel library, operations and representation of voxel data. There is [a piston crate](https://github.com/PistonDevelopers/gfx_voxel) for rendering voxels but this isn't suitable for working on domains like medical data, more geared towards game development. To enable processing in scientific domains like medicine there needs to be processing functions such as being able to: convert to triangular mesh, thresholding, and morphology. This is because things like MRI data is expressed as voxels, thresholding can separate grey and white matter in the brain, morphology identifies shapes and structures inside the body etc.
+
+#### Geospatial Information Systems
+* OGC standards - multiple crates for standards for encoding, sharing or manipulating geospatial data [link](http://www.opengeospatial.org/standards). There's already a crate for [GeoJSON](https://crates.io/crates/geojson) but none of the others appear to have crates.
+* More complete GDAL wrapper (or pure rust alternative). [rust-gdal](https://github.com/georust/rust-gdal) is an incomplete wrapper so needs work
 
 #### Machine Learning
 
