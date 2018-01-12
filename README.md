@@ -29,14 +29,14 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 
 There is yet to be a library that handles all of these:
 
-    * General purpose DOM tree
-    * Proper encoding handling
-    * DTD handling
-    * XML Schema validation
-    * XPath
-    * XQuery
-    * XSLT
-    * Is *fast*
+* General purpose DOM tree
+* Proper encoding handling
+* DTD handling
+* XML Schema validation
+* XPath
+* XQuery
+* XSLT
+* Is *fast*
 
 For more feature and performance comparisons for existing Rust XML crates, see [`choose-your-xml-rs`](https://github.com/RazrFalcon/choose-your-xml-rs).
 
