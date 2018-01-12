@@ -27,7 +27,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 
 #### Data forensics
 
-* Ability to parse `Registry.pol` files from Windows machines
+* ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this guy!](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/16)
 
 #### Math, machine learning, data science
 
