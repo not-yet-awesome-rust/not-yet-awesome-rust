@@ -13,7 +13,10 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 ## Table of contents
 
 <!--
-    To update this TOC, navigate to http://tableofcontent.eu and paste this Github repo's link (https://github.com/ErichDonGubler).
+    To update this TOC, navigate to http://tableofcontent.eu and click "Submit" after either:
+        * Pasting this Github repo's link (https://github.com/ErichDonGubler) to generate the TOC from the latest commit to `master`
+        * Pasting the content of your edits into the appropriate field
+
     After you've generated the TOC, fluff up the output like so:
 
     1. Remove everything until `The List`, including the `The List` header itself.
@@ -30,7 +33,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     - [Machine Learning](#machine-learning)
     - [Mathematics](#mathematics)
     - [Web bindings](#web-bindings)
-      - [Google API](#google-api)
+        - [Google API](#google-api)
     - [XML](#xml)
 
 ## The List
