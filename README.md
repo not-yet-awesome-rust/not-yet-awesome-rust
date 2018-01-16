@@ -69,6 +69,14 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
 * Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
 
+#### Web bindings
+
+##### Google API
+
+* Generation of Google bindings using [`googleapis`](https://github.com/googleapis/googleapis) and gRPC would be more performant than using JSON web requests to the Google API.
+    * The [`google-apis-rs` service](http://byron.github.io/google-apis-rs/) uses the [Google Discovery service](https://developers.google.com/discovery) to generate API bindings, but having alternatives
+* There is also room for more idiomatic APIs for Google in general. [`google-apis-rs`](http://byron.github.io/google-apis-rs/) exposes the vast majority of Google Services, but they can be difficult to grok for beginners or someone unfamiliar with Google APIs in general.
+
 #### XML
 
 There is yet to be a library that handles all of these:
