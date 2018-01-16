@@ -13,7 +13,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 ## Table of contents
 
 <!--
-    To update this TOC, navigate to http://tableofcontent.eu and paste this Github repo's link.
+    To update this TOC, navigate to http://tableofcontent.eu and paste this Github repo's link (https://github.com/ErichDonGubler).
     After you've generated the TOC, fluff up the output like so:
 
     1. Remove everything until `The List`, including the `The List` header itself.
@@ -29,8 +29,9 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
     - [Mathematics](#mathematics)
+    - [Web bindings](#web-bindings)
+      - [Google API](#google-api)
     - [XML](#xml)
-
 
 ## The List
 
@@ -48,13 +49,16 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this guy!](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/16)
 
 #### Data processing
+
 * DDS library [wiki](https://en.wikipedia.org/wiki/Data_Distribution_Service)
 
 #### Geometry
+
 * [PCL](http://pointclouds.org/) equivalent - point clouds, essential 3D geometry functions
 * Voxel library, operations and representation of voxel data. There is [a piston crate](https://github.com/PistonDevelopers/gfx_voxel) for rendering voxels but this isn't suitable for working on domains like medical data, more geared towards game development. To enable processing in scientific domains like medicine there needs to be processing functions such as being able to: convert to triangular mesh, thresholding, and morphology. This is because things like MRI data is expressed as voxels, thresholding can separate grey and white matter in the brain, morphology identifies shapes and structures inside the body etc.
 
 #### Geospatial Information Systems
+
 * OGC standards - multiple crates for standards for encoding, sharing or manipulating geospatial data [link](http://www.opengeospatial.org/standards). There's already a crate for [GeoJSON](https://crates.io/crates/geojson) but none of the others appear to have crates.
 * More complete GDAL wrapper (or pure rust alternative). [rust-gdal](https://github.com/georust/rust-gdal) is an incomplete wrapper so needs work
 
