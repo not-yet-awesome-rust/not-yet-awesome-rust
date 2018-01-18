@@ -32,6 +32,8 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
     - [Mathematics](#mathematics)
+    - [UI](#ui)
+        - [Native UI toolkits](#native-ui-toolkits)
     - [Web bindings](#web-bindings)
         - [Google API](#google-api)
     - [XML](#xml)
@@ -81,6 +83,13 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * Sparse matrix libraries ([SPRS](https://github.com/vbarrielle/sprs) library needs some love, since sparse/dense matrix products are super [slow](https://github.com/vbarrielle/sprs/issues/125), otherwise is quite good)
 * Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
 * Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
+
+#### UI
+
+##### Native UI toolkits
+
+* A mature framework for Windows native UI has yet to be established, but [`native-windows-gui`](https://crates.io/crates/native-windows-gui) claims to be approaching completion.
+* Abstractions over native UI choices for each platform have yet to be available.
 
 #### Web bindings
 
