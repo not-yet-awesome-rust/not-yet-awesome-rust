@@ -32,6 +32,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
     - [Mathematics](#mathematics)
+    - [Personal information management](#personal-information-management)
     - [Web bindings](#web-bindings)
         - [Google API](#google-api)
     - [XML](#xml)
@@ -85,6 +86,12 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * Sparse matrix libraries ([SPRS](https://github.com/vbarrielle/sprs) library needs some love, since sparse/dense matrix products are super [slow](https://github.com/vbarrielle/sprs/issues/125), otherwise is quite good)
 * Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
 * Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
+
+#### Personal information management
+
+* Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" yet exists using it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
+* [iCalendar](https://en.wikipedia.org/wiki/ICalendar) parsing has been implemented via several crates (i.e., [`vobject`](https://crates.io/crates/vobject)), but a higher-level API is missing. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
+* [`beancount`](http://furius.ca/beancount/) has no APIs written in Rust at all!
 
 #### Web bindings
 
