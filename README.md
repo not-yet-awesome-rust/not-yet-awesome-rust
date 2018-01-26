@@ -26,6 +26,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 - [Documentation](#documentation)
     - [Stack Overflow](#stack-overflow)
 - [Libraries](#libraries)
+    - [Character encodings](#character-encodings)
     - [Data forensics](#data-forensics)
     - [Data processing](#data-processing)
     - [Geometry](#geometry)
