@@ -26,14 +26,16 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 - [Documentation](#documentation)
     - [Stack Overflow](#stack-overflow)
 - [Libraries](#libraries)
-    - [Data forensics](#data-forensics)
+    - [Character encodings](#character-encodings)
     - [Data processing](#data-processing)
     - [Geometry](#geometry)
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
     - [Mathematics](#mathematics)
-    - [UI](#ui)
+    - [Native desktop applications](#native-desktop-applications)
+        - [Microsoft Office](#microsoft-office)
         - [Native UI toolkits](#native-ui-toolkits)
+    - [Parsers/Emitters](#parsersemitters)
     - [Web bindings](#web-bindings)
         - [Google API](#google-api)
     - [XML](#xml)
@@ -49,15 +51,11 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 
 ### Libraries
 
-### Character encodings
+#### Character encodings
 
 * Full support for [`cp437`](https://en.wikipedia.org/wiki/Code_page_437) (see [this issue](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/21)).
     * More fully-featured encode/decode libraries like [`encoding`](https://crates.io/crates/encoding) and [`encoding-rs`](https://crates.io/crates/encoding_rs) exist, but don't support this currently.
     * A [decode-only library](https://github.com/timglabisch/rust_cp437) exists, the development of which seems to have stopped.
-
-#### Data forensics
-
-* ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this guy!](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/16)
 
 #### Data processing
 
@@ -75,7 +73,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 #### Geospatial Information Systems
 
 * OGC standards - multiple crates for standards for encoding, sharing or manipulating geospatial data [link](http://www.opengeospatial.org/standards). There's already a crate for [GeoJSON](https://crates.io/crates/geojson) but none of the others appear to have crates.
-* More complete GDAL wrapper (or pure rust alternative). [rust-gdal](https://github.com/georust/rust-gdal) is an incomplete wrapper so needs work
+* More complete GDAL wrapper (or pure rust alternative). [rust-gdal](https://github.com/georust/rust-gdal) is an incomplete wrapper so needs work.
 
 #### Machine Learning
 
@@ -88,12 +86,24 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
 * Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
 
-#### UI
+#### Native desktop applications
+
+##### Microsoft Office
+
+* An interactive Visual Basic uses for scripting by using the COM interface, which I believe [`winapi`](https://crates.io/crates/winapi) supports.
 
 ##### Native UI toolkits
 
 * A mature framework for Windows native UI has yet to be established, but [`native-windows-gui`](https://crates.io/crates/native-windows-gui) claims to be approaching completion.
 * Abstractions over native UI choices for each platform have yet to be available.
+
+#### Parsers/Emitters
+
+* ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this guy!](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/16)
+* Common office document formats are yet to have more mature solutions:
+    * Excel/Calc spreadsheet deserialization seems available with [`calamine`](https://crates.io/crates/calamine), but [no serialization libraries seem available](https://crates.io/search?q=office) for them, let alone for the entire XML formats that the Office/OpenOffice suites themselves support.
+    * Otherwise, OpenOffice and Microsoft Office
+* There is currently no library to convert between different office document formats.
 
 #### Web bindings
 
