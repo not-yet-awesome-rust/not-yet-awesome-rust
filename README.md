@@ -33,6 +33,8 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     - [Machine Learning](#machine-learning)
     - [Mathematics](#mathematics)
     - [Personal information management](#personal-information-management)
+    - [UI](#ui)
+        - [Native UI toolkits](#native-ui-toolkits)
     - [Web bindings](#web-bindings)
         - [Google API](#google-api)
     - [XML](#xml)
@@ -92,6 +94,13 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" yet exists using it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) parsing has been implemented via several crates (i.e., [`vobject`](https://crates.io/crates/vobject)), but a higher-level API is missing. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * [`beancount`](http://furius.ca/beancount/) has no APIs written in Rust at all!
+
+#### UI
+
+##### Native UI toolkits
+
+* A mature framework for Windows native UI has yet to be established, but [`native-windows-gui`](https://crates.io/crates/native-windows-gui) claims to be approaching completion.
+* Abstractions over native UI choices for each platform have yet to be available.
 
 #### Web bindings
 
