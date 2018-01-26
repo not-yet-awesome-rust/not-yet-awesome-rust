@@ -28,6 +28,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 - [Libraries](#libraries)
     - [Character encodings](#character-encodings)
     - [Data processing](#data-processing)
+    - [Data structures](#data-structures)
     - [Geometry](#geometry)
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
@@ -65,6 +66,12 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     * The following crates exist, but are missing some thing(s):
         * [`hdf5-rs`](https://crates.io/crates/hdf5-rs) has a lot of functionality, but is currently in design flux and has an [issue](https://github.com/aldanor/hdf5-rs/issues/17) reporting its status.
         * [`hdf5`](https://crates.io/crates/hdf5) seems capable of writing HDF5-encoded data, but not reading it.
+
+#### Data structures
+
+* A concurrent `HashMap`-like structure has not been fully developed yet.
+    * `rust-concurrent-hashmap` is still missing methods like `iter_mut`, `entry`, `drain`, and `clear` from the original `HashMap` interface.
+    * `rust-evmap` is a different design around eventual consistency, and so departs from the normal `HashMap` interface.
 
 #### Geometry
 
