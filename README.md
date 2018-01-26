@@ -49,7 +49,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 
 ### Libraries
 
-### Character encodings
+#### Character encodings
 
 * Full support for [`cp437`](https://en.wikipedia.org/wiki/Code_page_437) (see [this issue](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/21)).
     * More fully-featured encode/decode libraries like [`encoding`](https://crates.io/crates/encoding) and [`encoding-rs`](https://crates.io/crates/encoding_rs) exist, but don't support this currently.
