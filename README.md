@@ -91,9 +91,13 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 
 #### Personal information management
 
-* Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" yet exists using it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
+* Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" exists yet that uses it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) parsing has been implemented via several crates (i.e., [`vobject`](https://crates.io/crates/vobject)), but a higher-level API is missing. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
-* [`beancount`](http://furius.ca/beancount/) has no APIs written in Rust at all!
+* [`beancount`](http://furius.ca/beancount/) and [its data format](https://docs.google.com/document/d/1wAMVrKIA2qtRGmoVDSUBJGmYZSygUaR0uOMW1GV3YE0/edit) have hardly any APIs at this point:
+    * Parser
+    * Emitter, possibly with a builder interface for a higher-level API
+    * Another idea is to create a Python integration to reuse logic from the original library
+
 
 #### UI
 
