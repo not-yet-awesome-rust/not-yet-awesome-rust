@@ -36,6 +36,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
         - [Microsoft Office](#microsoft-office)
         - [Native UI toolkits](#native-ui-toolkits)
     - [Parsers/Emitters](#parsersemitters)
+    - [Personal information management](#personal-information-management)
     - [Web bindings](#web-bindings)
         - [Google API](#google-api)
     - [XML](#xml)
@@ -104,6 +105,14 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     * Excel/Calc spreadsheet deserialization seems available with [`calamine`](https://crates.io/crates/calamine), but [no serialization libraries seem available](https://crates.io/search?q=office) for them, let alone for the entire XML formats that the Office/OpenOffice suites themselves support.
     * Otherwise, OpenOffice and Microsoft Office
 * There is currently no library to convert between different office document formats.
+* The [`beancount` data format](https://docs.google.com/document/d/1wAMVrKIA2qtRGmoVDSUBJGmYZSygUaR0uOMW1GV3YE0/edit) has no parser or emitter libraries yet.
+    * A builder interface for a higher-level emission API would also be nice.
+
+#### Personal information management
+
+* Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" exists yet that uses it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
+* [iCalendar](https://en.wikipedia.org/wiki/ICalendar) parsing has been implemented via several crates (i.e., [`vobject`](https://crates.io/crates/vobject)), but a higher-level API is missing. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
+* Bindings to the Python implementation of [`beancount`](http://furius.ca/beancount/) do not yet exist.
 
 #### Web bindings
 
