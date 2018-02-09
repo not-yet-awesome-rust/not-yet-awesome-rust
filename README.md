@@ -114,6 +114,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * There is currently no library to convert between different office document formats.
 * The [`beancount` data format](https://docs.google.com/document/d/1wAMVrKIA2qtRGmoVDSUBJGmYZSygUaR0uOMW1GV3YE0/edit) has no parser or emitter libraries yet.
     * A builder interface for a higher-level emission API would also be nice.
+* There is no pure-Rust solution for QR decoding. The only other crate that handles QR decoding is the [`quirc`](https://crates.io/crates/quirc) crate, which uses C bindings.
 
 #### Personal information management
 
