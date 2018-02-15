@@ -118,6 +118,9 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * There is no pure-Rust solution for QR decoding. The only other crate that handles QR decoding is the [`quirc`](https://crates.io/crates/quirc) crate, which uses C bindings.
 * The [RData](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) file format does not have a parser or emitter yet.
     * Currently, this formatted is implemented for the R language in the [`serialize.c`](https://svn.r-project.org/R/trunk/src/main/serialize.c) module.
+* There are no SGML parsers or emitters on crates.io at all.
+    * This is mostly a legacy markup language, used by older applications like
+	    [APP (AKA 3B2)](https://en.wikipedia.org/wiki/Arbortext_Advanced_Print_Publisher).
 
 #### Personal information management
 
@@ -152,6 +155,7 @@ There is yet to be a library that handles all of these:
 * XPath
 * XQuery
 * XSLT 1.0/2.0/3.0
+* Option to preserve input style
 * Is *fast*
 
 For more feature and performance comparisons for existing Rust XML crates, see [`choose-your-xml-rs`](https://github.com/RazrFalcon/choose-your-xml-rs).
