@@ -128,7 +128,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * A mature framework for Windows native UI has yet to be established.
     * [`native-windows-gui`](https://crates.io/crates/native-windows-gui) claims to be approaching feature-completion.
 * Abstractions over native UIs for each platform have yet to be available.
-* A good reactive UI library complete with event-driven statement management a la [Redux](https://redux.js.org/) does not yet exist.
+* A good reactive UI library complete with event-driven state management a la [Redux](https://redux.js.org/) does not yet exist.
     * [`carboxyl`](https://github.com/aepsil0n/carboxyl) looks like it may be a good fundamental building block for this.
 
 #### Web bindings
