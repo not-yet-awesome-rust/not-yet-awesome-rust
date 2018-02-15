@@ -33,14 +33,16 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
     - [Mathematics](#mathematics)
-    - [Native desktop applications](#native-desktop-applications)
+    - [Native desktop application integrations](#native-desktop-application-integrations)
         - [Microsoft Office](#microsoft-office)
-        - [Native UI toolkits](#native-ui-toolkits)
     - [Parsers/Emitters](#parsersemitters)
     - [Personal information management](#personal-information-management)
+    - [User Interfaces](#user-interfaces)
     - [Web bindings](#web-bindings)
         - [Google API](#google-api)
     - [XML](#xml)
+
+
 
 ## The List
 
@@ -66,6 +68,10 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
     * The following crates exist, but are missing some thing(s):
         * [`hdf5-rs`](https://crates.io/crates/hdf5-rs) has a lot of functionality, but is currently in design flux and has an [issue](https://github.com/aldanor/hdf5-rs/issues/17) reporting its status.
         * [`hdf5`](https://crates.io/crates/hdf5) seems capable of writing HDF5-encoded data, but not reading it.
+* A good stream processing pipeline with back pressure doesn't yet exist for an asynchronous data processing pipeline
+    * [RxRust](https://github.com/ReactiveX/RxRust) is an older attempt to implement this according to the [reactive streams](http://www.reactive-streams.org/#the-problem) model -- it currently seems closest to this use case.
+    * [`tokio`](https://github.com/tokio-rs/tokio) and [`futures`]() may be interesting components to use when building this.
+    * New features soon to come in Rust like `impl Trait` will probably make developing something like this easier to develop and use.
 
 #### Data structures
 
@@ -94,16 +100,11 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
 * Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
 
-#### Native desktop applications
+#### Native desktop application integrations
 
 ##### Microsoft Office
 
 * An interactive Visual Basic uses for scripting by using the COM interface, which I believe [`winapi`](https://crates.io/crates/winapi) supports.
-
-##### Native UI toolkits
-
-* A mature framework for Windows native UI has yet to be established, but [`native-windows-gui`](https://crates.io/crates/native-windows-gui) claims to be approaching completion.
-* Abstractions over native UI choices for each platform have yet to be available.
 
 #### Parsers/Emitters
 
@@ -121,6 +122,14 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" exists yet that uses it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) parsing has been implemented via several crates (i.e., [`vobject`](https://crates.io/crates/vobject)), but a higher-level API is missing. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * Bindings to the Python implementation of [`beancount`](http://furius.ca/beancount/) do not yet exist.
+
+#### User Interfaces
+
+* A mature framework for Windows native UI has yet to be established.
+    * [`native-windows-gui`](https://crates.io/crates/native-windows-gui) claims to be approaching feature-completion.
+* Abstractions over native UIs for each platform have yet to be available.
+* A good reactive UI library complete with event-driven statement management a la [Redux](https://redux.js.org/) does not yet exist.
+    * [`carboxyl`](https://github.com/aepsil0n/carboxyl) looks like it may be a good fundamental building block for this.
 
 #### Web bindings
 
