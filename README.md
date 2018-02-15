@@ -115,6 +115,8 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * The [`beancount` data format](https://docs.google.com/document/d/1wAMVrKIA2qtRGmoVDSUBJGmYZSygUaR0uOMW1GV3YE0/edit) has no parser or emitter libraries yet.
     * A builder interface for a higher-level emission API would also be nice.
 * There is no pure-Rust solution for QR decoding. The only other crate that handles QR decoding is the [`quirc`](https://crates.io/crates/quirc) crate, which uses C bindings.
+* The [RData](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) file format does not have a parser or emitter yet.
+    * Currently, this formatted is implemented for the R language in the [`serialize.c`](https://svn.r-project.org/R/trunk/src/main/serialize.c) module.
 
 #### Personal information management
 
@@ -136,10 +138,11 @@ There is yet to be a library that handles all of these:
 * General purpose DOM tree
 * Proper encoding handling
 * DTD handling
+    * including the disabling of features with security implications like entity expansion bombs
 * XML Schema validation
 * XPath
 * XQuery
-* XSLT
+* XSLT 1.0/2.0/3.0
 * Is *fast*
 
 For more feature and performance comparisons for existing Rust XML crates, see [`choose-your-xml-rs`](https://github.com/RazrFalcon/choose-your-xml-rs).
