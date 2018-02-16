@@ -118,7 +118,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * The [RData](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) file format does not have a parser or emitter yet.
     * Currently, this formatted is implemented for the R language in the [`serialize.c`](https://svn.r-project.org/R/trunk/src/main/serialize.c) module.
 * There are no SGML parsers or emitters on crates.io at all.
-    * This is mostly a legacy markup language, used by older applications like
+    * This is mostly a legacy markup language used for legacy type setting and supported in applications like
 	    [APP (AKA 3B2)](https://en.wikipedia.org/wiki/Arbortext_Advanced_Print_Publisher).
 
 #### Personal information management
