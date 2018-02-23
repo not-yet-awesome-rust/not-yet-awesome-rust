@@ -37,6 +37,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
         - [Microsoft Office](#microsoft-office)
     - [Parsers/Emitters](#parsersemitters)
     - [Personal information management](#personal-information-management)
+    - [SSH](#ssh)
     - [User Interfaces](#user-interfaces)
     - [Web bindings](#web-bindings)
         - [Google API](#google-api)
@@ -127,6 +128,11 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 * Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" exists yet that uses it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) parsing has been implemented via several crates (i.e., [`vobject`](https://crates.io/crates/vobject)), but a higher-level API is missing. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * Bindings to the Python implementation of [`beancount`](http://furius.ca/beancount/) do not yet exist.
+
+#### SSH
+
+* There exists no fully-featured pure-Rust implementation of an SSH client library.
+    * Features still need to be enumerated here!
 
 #### User Interfaces
 
