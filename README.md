@@ -165,3 +165,5 @@ There is yet to be a library that handles all of these:
 * Is *fast*
 
 For more feature and performance comparisons for existing Rust XML crates, see [`choose-your-xml-rs`](https://github.com/RazrFalcon/choose-your-xml-rs).
+
+XML is also treated as a second class citizen by the Serde community. Unlike JSON which has an official crate which is `v1.0.x`, the [official crate](https://github.com/serde-deprecated/xml) was discontinued for [serde-xml-rs](https://github.com/RReverser/serde-xml-rs) but [even that crate too looks doomed](https://github.com/serde-deprecated/xml/issues/35#issuecomment-343310659).
