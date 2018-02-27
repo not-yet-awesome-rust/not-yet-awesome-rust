@@ -26,7 +26,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 - [Documentation](#documentation)
     - [Stack Overflow](#stack-overflow)
 - [Libraries](#libraries)
-    - [Character encodings](#character-encodings)
+    - ~~[Character encodings](#character-encodings)~~
     - [Data processing](#data-processing)
     - [Data structures](#data-structures)
     - [Geometry](#geometry)
@@ -43,8 +43,6 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
         - [Google API](#google-api)
     - [XML](#xml)
 
-
-
 ## The List
 
 ### Documentation
@@ -56,11 +54,11 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 ### Libraries
 
-#### Character encodings
+#### ~~Character encodings~~
 
-* Full support for [`cp437`](https://en.wikipedia.org/wiki/Code_page_437) (see [this issue](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/21)).
-    * More fully-featured encode/decode libraries like [`encoding`](https://crates.io/crates/encoding) and [`encoding-rs`](https://crates.io/crates/encoding_rs) exist, but don't support this currently.
-    * A [decode-only library](https://github.com/timglabisch/rust_cp437) exists, the development of which seems to have stopped.
+* ~~Full support for [`cp437`](https://en.wikipedia.org/wiki/Code_page_437) (see [this issue](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/21)).~~ Implemented [here](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/40)!
+    * ~~More fully-featured encode/decode libraries like [`encoding`](https://crates.io/crates/encoding) and [`encoding-rs`](https://crates.io/crates/encoding_rs) exist, but don't support this currently.~~
+    * ~~A [decode-only library](https://github.com/timglabisch/rust_cp437) exists, the development of which seems to have stopped.~~
 
 #### Data processing
 
