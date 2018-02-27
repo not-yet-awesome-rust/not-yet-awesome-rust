@@ -8,13 +8,13 @@ The purpose of this list is twofold:
     * The definition of "specific" and "robust" for this list is yet to be determined!
 * Encourage the Rust community to approach gaps in the Rust ecosystem by providing this list as a point of collaboration!
 
-You can jump right into editing this file [here](https://github.com/ErichDonGubler/not-yet-awesome-rust/edit/master/README.md). See the [contributing guide](CONTRIBUTING.md) for information on what you can do to help or if you have questions about this list!
+You can jump right into editing this file [here](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/edit/master/README.md). See the [contributing guide](CONTRIBUTING.md) for information on what you can do to help or if you have questions about this list!
 
 ## Table of contents
 
 <!--
     To update this TOC, navigate to http://tableofcontent.eu and click "Submit" after either:
-        * Pasting this Github repo's link (https://github.com/ErichDonGubler) to generate the TOC from the latest commit to `master`
+        * Pasting this Github repo's link (https://github.com/not-yet-awesome-rust/not-yet-awesome-rust) to generate the TOC from the latest commit to `master`
         * Pasting the content of your edits into the appropriate field
 
     After you've generated the TOC, fluff up the output like so:
@@ -52,13 +52,13 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 #### Stack Overflow
 
 * There are many older Rust questions on Stack Overflow that wouldn't work with today's Rust because of syntax that has changed since the release of 1.0, or that may have better solutions because of other Rust ecosystem developments.
-    * See [#4](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/4) for an SO query and a list of these known issues!
+    * See [#4](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/4) for an SO query and a list of these known issues!
 
 ### Libraries
 
 #### Character encodings
 
-* Full support for [`cp437`](https://en.wikipedia.org/wiki/Code_page_437) (see [this issue](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/21)).
+* Full support for [`cp437`](https://en.wikipedia.org/wiki/Code_page_437) (see [this issue](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/21)).
     * More fully-featured encode/decode libraries like [`encoding`](https://crates.io/crates/encoding) and [`encoding-rs`](https://crates.io/crates/encoding_rs) exist, but don't support this currently.
     * A [decode-only library](https://github.com/timglabisch/rust_cp437) exists, the development of which seems to have stopped.
 
@@ -109,7 +109,7 @@ You can jump right into editing this file [here](https://github.com/ErichDonGubl
 
 #### Parsers/Emitters
 
-* ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this guy!](https://github.com/ErichDonGubler/not-yet-awesome-rust/issues/16)
+* ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this guy!](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/16)
 * Common office document formats are yet to have more mature solutions:
     * Excel/Calc spreadsheet deserialization seems available with [`calamine`](https://crates.io/crates/calamine), but [no serialization libraries seem available](https://crates.io/search?q=office) for them, let alone for the entire XML formats that the Office/OpenOffice suites themselves support.
     * Otherwise, OpenOffice and Microsoft Office
