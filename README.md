@@ -37,6 +37,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
         - [Microsoft Office](#microsoft-office)
     - [Parsers/Emitters](#parsersemitters)
     - [Personal information management](#personal-information-management)
+    - [Rust Toolchain](#rust-toolchain)
     - [SSH](#ssh)
     - [User Interfaces](#user-interfaces)
     - [Web bindings](#web-bindings)
@@ -126,6 +127,12 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" exists yet that uses it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) parsing has been implemented via several crates (i.e., [`vobject`](https://crates.io/crates/vobject)), but a higher-level API is missing. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * Bindings to the Python implementation of [`beancount`](http://furius.ca/beancount/) do not yet exist.
+    
+#### Rust Toolchain
+
+* A **stable** Rust interpreter does not yet exist.
+    * [`miri`](https://github.com/solson/miri) seems to be a step in the right direction -- it just needs some love!
+* No debugging experience offers integration with `rustdoc`, which would 
 
 #### SSH
 
