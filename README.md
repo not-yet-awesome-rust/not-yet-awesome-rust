@@ -29,6 +29,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     - ~~[Character encodings](#character-encodings)~~
     - [Data processing](#data-processing)
     - [Data structures](#data-structures)
+    - [Embedded development](#embedded-development)
     - [Geometry](#geometry)
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
@@ -77,6 +78,10 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * A concurrent `HashMap`-like structure has not been fully developed yet.
     * [`concurrent-hashmap`](https://crates.io/crates/concurrent-hashmap) is still missing methods like `iter_mut`, `entry`, `drain`, and `clear` from the original `HashMap` interface.
     * [`evmap`](https://crates.io/crates/evmap) is a different design around eventual consistency, and so departs from the normal `HashMap` interface.
+    
+#### Embedded development
+
+* [MINIX](http://www.minix3.org/) support is nonexistent!
 
 #### Geometry
 
