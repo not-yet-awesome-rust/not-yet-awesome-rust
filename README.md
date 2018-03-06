@@ -29,6 +29,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     - ~~[Character encodings](#character-encodings)~~
     - [Data processing](#data-processing)
     - [Data structures](#data-structures)
+    - [Dynamic programming analysis](#dynamic-programming-analysis)
     - [Embedded development](#embedded-development)
     - [Geometry](#geometry)
     - [Geospatial Information Systems](#geospatial-information-systems)
@@ -80,6 +81,12 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     * [`concurrent-hashmap`](https://crates.io/crates/concurrent-hashmap) is still missing methods like `iter_mut`, `entry`, `drain`, and `clear` from the original `HashMap` interface.
     * [`evmap`](https://crates.io/crates/evmap) is a different design around eventual consistency, and so departs from the normal `HashMap` interface.
     
+#### Dynamic programming analysis/instrumentation
+
+* Binary instrumentation tools like [Intel Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool) or [DynamoRIO](http://dynamorio.org/) are useful for embedded applications. An ecosystem around them (which doesn't exist yet!) could include:
+    * Bindings to the C APIs associated with existing applications (for instance, [Intel Pin](https://software.intel.com/sites/landingpage/pintool/docs/97554/Pin/html/group__API__REF.html) and [DynamioRIO](http://dynamorio.org/docs/API_BT.html))
+    * Libraries or applications implementing the features of the aforementioned in Rust
+
 #### Embedded development
 
 * [MINIX](http://www.minix3.org/) support is nonexistent!
