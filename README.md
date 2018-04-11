@@ -10,7 +10,7 @@ The purpose of this list is twofold:
 
 You can jump right into editing this file [here](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/edit/master/README.md). See the [contributing guide](CONTRIBUTING.md) for information on what you can do to help or if you have questions about this list!
 
-## Table of contents
+# Table of contents
 
 <!--
     To update this TOC, navigate to http://tableofcontent.eu and click "Submit" after either:
@@ -46,24 +46,21 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
         - [Google API](#google-api)
     - [XML](#xml)
 
-## The List
 
-### Documentation
+## Documentation
 
-#### Stack Overflow
+### Stack Overflow
 
 * There are many older Rust questions on Stack Overflow that wouldn't work with today's Rust because of syntax that has changed since the release of 1.0, or that may have better solutions because of other Rust ecosystem developments.
     * See [#4](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/4) for an SO query and a list of these known issues!
 
-### Libraries
-
-#### ~~Character encodings~~
+## ~~Character encodings~~
 
 * ~~Full support for [`cp437`](https://en.wikipedia.org/wiki/Code_page_437) (see [this issue](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/21)).~~ Implemented [here](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/40)!
     * ~~More fully-featured encode/decode libraries like [`encoding`](https://crates.io/crates/encoding) and [`encoding-rs`](https://crates.io/crates/encoding_rs) exist, but don't support this currently.~~
     * ~~A [decode-only library](https://github.com/timglabisch/rust_cp437) exists, the development of which seems to have stopped.~~
 
-#### Data processing
+## Data processing
 
 * DDS library [wiki](https://en.wikipedia.org/wiki/Data_Distribution_Service)
 * [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) (see also [Wikipedia](https://support.hdfgroup.org/HDF5/) and [this Reddit post](https://www.reddit.com/r/rust/comments/7r30r3/maintained_crate_for_hdf5_bindings/))
@@ -77,50 +74,50 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * Bindings for [pandoc](https://pandoc.org/)
 * Bindings for [git-annex](https://git-annex.branchable.com/)
 
-#### Data structures
+## Data structures
 
 * A concurrent `HashMap`-like structure has not been fully developed yet.
     * [`concurrent-hashmap`](https://crates.io/crates/concurrent-hashmap) is still missing methods like `iter_mut`, `entry`, `drain`, and `clear` from the original `HashMap` interface.
     * [`evmap`](https://crates.io/crates/evmap) is a different design around eventual consistency, and so departs from the normal `HashMap` interface.
-    
-#### Dynamic programming analysis/instrumentation
+
+## Dynamic programming analysis/instrumentation
 
 * Binary instrumentation tools like [Intel Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool) or [DynamoRIO](http://dynamorio.org/) are useful for embedded applications. An ecosystem around them (which doesn't exist yet!) could include:
     * Bindings to the C APIs associated with existing applications (for instance, [Intel Pin](https://software.intel.com/sites/landingpage/pintool/docs/97554/Pin/html/group__API__REF.html) and [DynamioRIO](http://dynamorio.org/docs/API_BT.html))
     * Libraries or applications implementing the features of the aforementioned in Rust
 
-#### Embedded development
+## Embedded development
 
 * [MINIX](http://www.minix3.org/) support is nonexistent!
 
-#### Geometry
+## Geometry
 
 * [PCL](http://pointclouds.org/) equivalent - point clouds, essential 3D geometry functions
 * Voxel library, operations and representation of voxel data. There is [a piston crate](https://github.com/PistonDevelopers/gfx_voxel) for rendering voxels but this isn't suitable for working on domains like medical data, more geared towards game development. To enable processing in scientific domains like medicine there needs to be processing functions such as being able to: convert to triangular mesh, thresholding, and morphology. This is because things like MRI data is expressed as voxels, thresholding can separate grey and white matter in the brain, morphology identifies shapes and structures inside the body etc.
 
-#### Geospatial Information Systems
+## Geospatial Information Systems
 
 * OGC standards - multiple crates for standards for encoding, sharing or manipulating geospatial data [link](http://www.opengeospatial.org/standards). There's already a crate for [GeoJSON](https://crates.io/crates/geojson) but none of the others appear to have crates.
 * More complete GDAL wrapper (or pure rust alternative). [rust-gdal](https://github.com/georust/rust-gdal) is an incomplete wrapper so needs work.
 
-#### Machine Learning
+## Machine Learning
 
 * Machine learning toolkit like scikit-learn in Python (both rust-learn and rusty-machine are insufficient). Rust-learn only supports classification, rusty-machines misses support for sparse data and serialization. Both of them miss quite common unsupervised techniques (like PCA).
 * Deep learning toolkit with GPU support a good flexibility (think Tensorflow or Chainer in Python). Most of the current libraries are either simplistic (you cannot do seq2seq network in them for example), or miss GPU support.
 
-#### Mathematics
+## Mathematics
 
 * Sparse matrix libraries ([SPRS](https://github.com/vbarrielle/sprs) library needs some love, the basics are there but advanced linear algebra is missing)
 * Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
 * Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
 
-#### Native desktop application integrations
+## Native desktop application integrations
 
-##### Microsoft Office
+### Microsoft Office
 
 * An interactive Visual Basic uses for scripting by using the COM interface, which I believe [`winapi`](https://crates.io/crates/winapi) supports.
 
-#### Parsers/Emitters
+### Parsers/Emitters
 
 * ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this guy!](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/16)
 * Common office document formats are yet to have more mature solutions:
@@ -134,15 +131,15 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     * Currently, this formatted is implemented for the R language in the [`serialize.c`](https://svn.r-project.org/R/trunk/src/main/serialize.c) module.
 * There are no SGML parsers or emitters on crates.io at all.
     * This is mostly a legacy markup language used for legacy type setting and supported in applications like
-	    [APP (AKA 3B2)](https://en.wikipedia.org/wiki/Arbortext_Advanced_Print_Publisher).
+      [APP (AKA 3B2)](https://en.wikipedia.org/wiki/Arbortext_Advanced_Print_Publisher).
 
-#### Personal information management
+### Personal information management
 
 * Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" exists yet that uses it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) parsing has been implemented via several crates (i.e., [`vobject`](https://crates.io/crates/vobject)), but a higher-level API is missing. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * Bindings to the Python implementation of [`beancount`](http://furius.ca/beancount/) do not yet exist.
-    
-#### Rust Toolchain
+
+## Rust Toolchain
 
 * A **stable** Rust interpreter does not yet exist, which would made code exploration easier.
     * [`miri`](https://github.com/solson/miri) seems to be a step in the right direction -- it just needs some love!
@@ -150,12 +147,12 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * A rustdoc backend for generating [zeal](https://zealdocs.org/)/
   [dash](https://kapeli.com/dash) docsets is missing.
 
-#### SSH
+## SSH
 
 * There exists no fully-featured pure-Rust implementation of an SSH client library.
     * Features still need to be enumerated here!
 
-#### User Interfaces
+## User Interfaces
 
 * A mature framework for Windows native UI has yet to be established.
     * [`native-windows-gui`](https://crates.io/crates/native-windows-gui) at one point claimed to be approaching feature-completion, but is now unmaintained.
@@ -163,14 +160,14 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * A good reactive UI library complete with event-driven state management a la [Redux](https://redux.js.org/) does not yet exist.
     * [`carboxyl`](https://github.com/aepsil0n/carboxyl) looks like it may be a good fundamental building block for this.
 
-#### Web bindings
+## Web bindings
 
-##### Google API
+### Google API
 
 * Generation of Google bindings using [`googleapis`](https://github.com/googleapis/googleapis) and gRPC would be more performant than using JSON web requests to the Google API, as with [`google-apis-rs` service](http://byron.github.io/google-apis-rs/).
 * There is room for more idiomatic APIs for Google in general. [`google-apis-rs`](http://byron.github.io/google-apis-rs/)  uses the [Google Discovery service](https://developers.google.com/discovery) to expose the vast majority of Google Services, but they can be difficult to grok for beginners or someone unfamiliar with Google APIs in general.
 
-#### XML
+### XML
 
 There is yet to be a library that handles all of these:
 
