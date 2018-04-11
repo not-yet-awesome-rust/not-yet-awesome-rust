@@ -145,6 +145,8 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * A **stable** Rust interpreter does not yet exist, which would made code exploration easier.
     * [`miri`](https://github.com/solson/miri) seems to be a step in the right direction -- it just needs some love!
 * No debugging experience offers integration with `rustdoc`, which would 
+* A rustdoc backend for generating [zeal](https://zealdocs.org/)/
+  [dash](https://kapeli.com/dash) docsets is missing.
 
 #### SSH
 
