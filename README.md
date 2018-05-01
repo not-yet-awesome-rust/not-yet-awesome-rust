@@ -110,6 +110,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * Sparse matrix libraries ([SPRS](https://github.com/vbarrielle/sprs) library needs some love, the basics are there but advanced linear algebra is missing)
 * Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
 * Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
+* A pure Rust `libm` implementation. These are required to get math functions on `#![no_std]` platforms
 
 ## Native desktop application integrations
 
