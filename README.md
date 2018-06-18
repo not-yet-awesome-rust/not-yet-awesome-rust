@@ -149,11 +149,6 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * A rustdoc backend for generating [zeal](https://zealdocs.org/)/
   [dash](https://kapeli.com/dash) docsets is missing.
 
-## SSH
-
-* There exists no fully-featured pure-Rust implementation of an SSH client library.
-    * Features still need to be enumerated here!
-
 ## User Interfaces
 
 * A mature framework for Windows native UI has yet to be established.
