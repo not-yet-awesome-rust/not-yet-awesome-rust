@@ -35,12 +35,12 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
     - [Mathematics](#mathematics)
+    - [Computer Vision](#computer-vision)
     - [Native desktop application integrations](#native-desktop-application-integrations)
         - [Microsoft Office](#microsoft-office)
     - [Parsers/Emitters](#parsersemitters)
     - [Personal information management](#personal-information-management)
     - [Rust Toolchain](#rust-toolchain)
-    - [SSH](#ssh)
     - [User Interfaces](#user-interfaces)
     - [Web bindings](#web-bindings)
         - [Google API](#google-api)
@@ -112,6 +112,11 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
 * A pure Rust `libm` implementation. These are required to get math functions on `#![no_std]` platforms
     * The [`m`](https://crates.io/crates/m) crate has made some headway here, though it hasn't been maintained recently.
+
+## Computer Vision
+
+* Some work has been done to create OpenCV bindings in [`cv-rs`](https://github.com/nebgnahz/cv-rs) as well as automatically generating bindings like [`opencv-rust`](https://github.com/kali/opencv-rust/). Neither are very complete.
+* Piston has [`imageproc`](https://github.com/PistonDevelopers/imageproc) based on [`image`](https://github.com/PistonDevelopers/image), but in their words, "This is very much a work in progress".
 
 ## Native desktop application integrations
 
