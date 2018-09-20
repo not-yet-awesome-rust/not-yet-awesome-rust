@@ -159,7 +159,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * A mature framework for Windows native UI has yet to be established.
     * [`native-windows-gui`](https://crates.io/crates/native-windows-gui) at one point claimed to be approaching feature-completion, but is now unmaintained.
 * Abstractions over native UIs for each platform have yet to be available in pure Rust.
-* A good reactive UI library complete with event-driven state management a la [Redux](https://redux.js.org/) does not yet exist.
+* A good reactive UI library complete with event-driven state management comparable to [Redux](https://redux.js.org/) does not yet exist.
     * [`carboxyl`](https://github.com/aepsil0n/carboxyl) looks like it may be a good fundamental building block for this.
 
 ## Web bindings
