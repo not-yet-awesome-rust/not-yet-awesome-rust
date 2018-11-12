@@ -84,7 +84,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     * [RxRust](https://github.com/ReactiveX/RxRust) is an older attempt to implement this according to the [reactive streams](http://www.reactive-streams.org/#the-problem) model -- it currently seems closest to this use case.
     * [`tokio`](https://github.com/tokio-rs/tokio) and [`futures`](https://github.com/rust-lang-nursery/futures-rs) may be interesting components to use when building this.
     * New features soon to come in Rust like `impl Trait` will probably make developing something like this easier to develop and use.
-* Bindings for [pandoc](https://pandoc.org/)
+* ~~Bindings for [pandoc](https://pandoc.org/)~~ A [`pandoc`](https://crates.io/crates/pandoc) crate now exists with CLI bindings!
 * Bindings for [git-annex](https://git-annex.branchable.com/)
 
 ## Data structures
