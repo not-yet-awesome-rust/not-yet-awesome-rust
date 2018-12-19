@@ -1,4 +1,6 @@
-## FAQ
+# Contributing to Not-Yet-Awesome Rust
+
+## Frequently asked questions
 
 ### I don't see what I'm looking for, is it actually missing?
 
@@ -19,3 +21,7 @@ If you're not using Github...[send us a PR](https://github.com/not-yet-awesome-r
 * Feel free to open an issue when you have a library that *satisfies the use cases* that are listed here -- knocking them off can only be a good thing.
     * You may also want to submit your work to [awesome-rust](https://github.com/rust-unofficial/awesome-rust), if you think it's good enough!
 * For now, items will NOT be deleted from this list -- merely crossed out ~~like this~~, so people can come back and see if progress has been made on what they care about.
+
+### Can I place a bounty on tasks?
+
+Yes you can! See NYAR's [BountySource](https://www.bountysource.com/teams/not-yet-awesome-rust/issues), where you can take care of placing bounties.
