@@ -1,8 +1,12 @@
 # Not-Yet-Awesome Rust
 
-A curated list of Rust code and resources that do **NOT** exist yet, but would be beneficial to the Rust community.
+***An (unofficial) sub-community of the [Rust programming language]() that wants to close gaps you feel in Rust's ecosystem.***
 
-The purpose of this list is twofold:
+There are two major resources provided in this community at time of writing: [the NYAR ecosystem list](#the-list) and [issues in the NYAR tracker](#issues).
+
+## The List
+
+This README is a list with a twofold purpose:
 
 * Enumerate **specific use cases and their problems domains** that do not yet have a robust ecosystem in Rust.
     * The definition of "specific" and "robust" for this list is yet to be determined!
@@ -10,7 +14,14 @@ The purpose of this list is twofold:
 
 You can jump right into editing this file [here](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/edit/master/README.md). See the [contributing guide](CONTRIBUTING.md) for information on what you can do to help or if you have questions about this list!
 
-# Table of contents
+## Issues
+
+[NYAR's issue tracker](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues) can help you get ecosystem gaps filled when you participate in:
+
+* **Voting** on your favorite issues to let people know you'd use something, optionally **commenting** and explaining your use case.
+* [**Placing bounties**](https://www.bountysource.com/teams/not-yet-awesome-rust/issues) on issues you're particularly passionate about, since issues are where BountySource integrates! We use the [`bounty` tag](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues?q=is%3Aopen+is%3Aissue+label%3Abounty) to indicate which issues have bounties associated.
+
+## Table of contents
 
 <!--
     To update this TOC, navigate to http://tableofcontent.eu and click "Submit" after either:
