@@ -122,7 +122,8 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * Designing low latency DSP algorithms suitable for embedded use (common filters, analysis functions)
 * Library for nonlinear dynamical or chaotic systems (solvers, numeric methods etc.)
 * A pure Rust `libm` implementation. These are required to get math functions on `#![no_std]` platforms
-    * The [`m`](https://crates.io/crates/m) crate has made some headway here, though it hasn't been maintained recently.
+    * ~~The [`m`](https://crates.io/crates/m) crate has made some headway here, though it hasn't been maintained recently.~~
+    * The [`libm`](https://github.com/rust-lang-nursery/libm) crate is a port of `libm` functionality from musl and newlib to Rust, with the aim of eventually being merged into `core`.
 
 ## Computer Vision
 
