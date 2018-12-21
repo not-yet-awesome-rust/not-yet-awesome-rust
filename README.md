@@ -1,6 +1,6 @@
 # Not-Yet-Awesome Rust
 
-***An (unofficial) sub-community of the [Rust programming language]() that wants to close gaps you feel in Rust's ecosystem.***
+***An (unofficial) sub-community of the [Rust programming language](https://rust-lang.org) that wants to close gaps you feel in Rust's ecosystem.***
 
 There are two major resources provided in this community at time of writing: [the NYAR ecosystem list](#the-list) and [issues in the NYAR tracker](#issues).
 
