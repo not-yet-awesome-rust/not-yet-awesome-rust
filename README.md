@@ -38,6 +38,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     - [Stack Overflow](#stack-overflow)
 - [Libraries](#libraries)
     - ~~[Character encodings](#character-encodings)~~
+    - [Computer Vision](#computer-vision)
     - [Data processing](#data-processing)
     - [Data structures](#data-structures)
     - [Dynamic programming analysis](#dynamic-programming-analysis)
@@ -46,7 +47,6 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
     - [Mathematics](#mathematics)
-    - [Computer Vision](#computer-vision)
     - [Native desktop application integrations](#native-desktop-application-integrations)
         - [Microsoft Office](#microsoft-office)
     - [Parsers/Emitters](#parsersemitters)
@@ -70,6 +70,11 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * ~~Full support for [`cp437`](https://en.wikipedia.org/wiki/Code_page_437) (see [this issue](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/21)).~~ Implemented [here](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/40)!
     * ~~More fully-featured encode/decode libraries like [`encoding`](https://crates.io/crates/encoding) and [`encoding-rs`](https://crates.io/crates/encoding_rs) exist, but don't support this currently.~~
     * ~~A [decode-only library](https://github.com/timglabisch/rust_cp437) exists, the development of which seems to have stopped.~~
+
+## Computer Vision
+
+* Some work has been done to create OpenCV bindings in [`cv-rs`](https://github.com/nebgnahz/cv-rs) as well as automatically generating bindings like [`opencv-rust`](https://github.com/kali/opencv-rust/). Neither are very complete.
+* Piston has [`imageproc`](https://github.com/PistonDevelopers/imageproc) based on [`image`](https://github.com/PistonDevelopers/image), but in their words, "This is very much a work in progress".
 
 ## Data processing
 
@@ -124,11 +129,6 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * A pure Rust `libm` implementation. These are required to get math functions on `#![no_std]` platforms
     * ~~The [`m`](https://crates.io/crates/m) crate has made some headway here, though it hasn't been maintained recently.~~
     * The [`libm`](https://github.com/rust-lang-nursery/libm) crate is a port of `libm` functionality from musl and newlib to Rust, with the aim of eventually being merged into `core`.
-
-## Computer Vision
-
-* Some work has been done to create OpenCV bindings in [`cv-rs`](https://github.com/nebgnahz/cv-rs) as well as automatically generating bindings like [`opencv-rust`](https://github.com/kali/opencv-rust/). Neither are very complete.
-* Piston has [`imageproc`](https://github.com/PistonDevelopers/imageproc) based on [`image`](https://github.com/PistonDevelopers/image), but in their words, "This is very much a work in progress".
 
 ## Native desktop application integrations
 
