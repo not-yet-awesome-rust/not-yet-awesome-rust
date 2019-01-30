@@ -145,6 +145,8 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * There is currently no library to convert between different office document formats.
 * The [`beancount` data format](https://docs.google.com/document/d/1wAMVrKIA2qtRGmoVDSUBJGmYZSygUaR0uOMW1GV3YE0/edit) has no parser or emitter libraries yet.
     * A builder interface for a higher-level emission API would also be nice.
+    * Bindings to the [Python implementation of beancount](https://github.com/beancount/beancount) do not yet exist.
+    * Update: WIP implementation of all of these things here https://github.com/twilco/beancount.  If any of these interest you feel free to lend a hand!
 * There is no pure-Rust solution for QR decoding. The only other crate that handles QR decoding is the [`quirc`](https://crates.io/crates/quirc) crate, which uses C bindings.
 * The [RData](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) file format does not have a parser or emitter yet.
     * Currently, this formatted is implemented for the R language in the [`serialize.c`](https://svn.r-project.org/R/trunk/src/main/serialize.c) module.
@@ -156,7 +158,6 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 * Contacts via [vCard](https://en.wikipedia.org/wiki/VCard) have been implemented using [`vobject`](https://crates.io/crates/vobject), but no "high-level interface" exists yet that uses it or an alternative. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
 * [iCalendar](https://en.wikipedia.org/wiki/ICalendar) parsing has been implemented via several crates (i.e., [`vobject`](https://crates.io/crates/vobject)), but a higher-level API is missing. <!-- FIXME: What does this actually mean? What APIs are missing/expected? -->
-* Bindings to the Python implementation of [`beancount`](http://furius.ca/beancount/) do not yet exist.
 
 ## Rust Toolchain
 
