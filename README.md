@@ -133,6 +133,10 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 * An interactive Visual Basic uses for scripting by using the COM interface, which I believe [`winapi`](https://crates.io/crates/winapi) supports.
 
+### Networking and Protocols
+
+* [AMQP 1.0](https://www.amqp.org/resources/specifications) - While there are several libraries for AMQP 0.9.1, the AMQP 1.0 spec represents a significant departure from the previous version.
+
 ### Parsers/Emitters
 
 * ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this guy!](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/16)
