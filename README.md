@@ -148,7 +148,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     * A builder interface for a higher-level emission API would also be nice.
     * Bindings to the [Python implementation of beancount](https://github.com/beancount/beancount) do not yet exist.
     * An [implementation of Beancount bindings, parser, and emitter in Rust](https://github.com/twilco/beancount) is currently WIP, and contributors have been requested.
-* There is no pure-Rust solution for QR decoding. The only other crate that handles QR decoding is the [`quirc`](https://crates.io/crates/quirc) crate, which uses C bindings.
+* ~~There is no pure-Rust solution for QR decoding. The only other crate that handles QR decoding is the [`quirc`](https://crates.io/crates/quirc) crate, which uses C bindings~~ -- implemented [by @WanzenBug](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/74) and announced on [Reddit](https://www.reddit.com/r/rust/comments/bk7z2x/announcing_bardecoder_a_qr_detector_and_decoder/).
 * The [RData](https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml) file format does not have a parser or emitter yet.
     * Currently, this formatted is implemented for the R language in the [`serialize.c`](https://svn.r-project.org/R/trunk/src/main/serialize.c) module.
 * There are no SGML parsers or emitters on crates.io at all.
