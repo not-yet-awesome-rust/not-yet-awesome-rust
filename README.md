@@ -101,7 +101,8 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 ## Embedded development
 
-* [MINIX](http://www.minix3.org/) support is nonexistent!
+* [MINIX](http://www.minix3.org/) support is ~~nonexistent!~~ still a WIP.
+   * [`rust-minix`](https://github.com/ids1024/rust-minix) is a WIP adding support for the Linux platform, which the author introduced with [this blog post](https://iandouglasscott.com/2019/02/18/cross-compiling-rust-code-to-minix/).
 
 ## Geometry
 
