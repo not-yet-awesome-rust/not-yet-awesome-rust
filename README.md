@@ -82,7 +82,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * ~~[HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) (see also [Wikipedia](https://support.hdfgroup.org/HDF5/) and [this Reddit post](https://www.reddit.com/r/rust/comments/7r30r3/maintained_crate_for_hdf5_bindings/))~~ A stable version of [`hdf5`](https://github.com/aldanor/hdf5-rust) crate has been released and is now [available](https://crates.io/crates/hdf5) on crates.io.
 * A good stream processing pipeline with back pressure doesn't yet exist for an asynchronous data processing pipeline
     * [RxRust](https://github.com/ReactiveX/RxRust) is an older attempt to implement this according to the [reactive streams](http://www.reactive-streams.org/#the-problem) model -- it currently seems closest to this use case.
-    * [`tokio`](https://github.com/tokio-rs/tokio) and [`futures`]() may be interesting components to use when building this.
+    * [`tokio`](https://github.com/tokio-rs/tokio) and [`futures`](https://github.com/rust-lang-nursery/futures-rs) may be interesting components to use when building this.
     * New features soon to come in Rust like `impl Trait` will probably make developing something like this easier to develop and use.
 * Bindings for [pandoc](https://pandoc.org/)
 * Bindings for [git-annex](https://git-annex.branchable.com/)
