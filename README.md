@@ -140,7 +140,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 ### Parsers/Emitters
 
-* ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this guy!](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/16)
+* ~~Ability to parse `Registry.pol` files from Windows machines~~ -- implemented [by this person!](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/16)
 * Common office document formats are yet to have more mature solutions:
     * Excel/Calc spreadsheet deserialization seems available with [`calamine`](https://crates.io/crates/calamine), but [no serialization libraries seem available](https://crates.io/search?q=office) for them, let alone for the entire XML formats that the Office/OpenOffice suites themselves support.
     * Otherwise, OpenOffice and Microsoft Office
