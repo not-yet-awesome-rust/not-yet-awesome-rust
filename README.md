@@ -89,7 +89,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 ## Data structures
 
-* A concurrent `HashMap`-like structure has not been fully developed yet.
+* A concurrent `std::collections::HashMap`-like structure has not been fully developed yet.
     * [`concurrent-hashmap`](https://crates.io/crates/concurrent-hashmap) is still missing methods like `iter_mut`, `entry`, `drain`, and `clear` from the original `HashMap` interface.
     * [`evmap`](https://crates.io/crates/evmap) is a different design around eventual consistency, and so departs from the normal `HashMap` interface.
 
