@@ -43,6 +43,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     - [Data structures](#data-structures)
     - [Dynamic programming analysis](#dynamic-programming-analysis)
     - [Embedded development](#embedded-development)
+    - [Game development](#game-development)
     - [Geometry](#geometry)
     - [Geospatial Information Systems](#geospatial-information-systems)
     - [Machine Learning](#machine-learning)
@@ -104,6 +105,18 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 * [MINIX](http://www.minix3.org/) support is ~~nonexistent!~~ still a WIP.
    * [`rust-minix`](https://github.com/ids1024/rust-minix) is a WIP adding support for the Linux platform, which the author introduced with [this blog post](https://iandouglasscott.com/2019/02/18/cross-compiling-rust-code-to-minix/).
+
+## Game development
+
+* Integration with existing mature game engines is poor at time of writing.
+    * [Unreal Engine](https://www.unrealengine.com/) has had [some prior work](https://ejmahler.github.io/rust_in_unreal/) accessible by making an Unreal account, but nothing has been made freely public at time of writing.
+    * [Unity3D](https://unity.com/) currently has no published crates for Rust interop.
+    * [Godot Engine](https://godotengine.org/) allows Rust interop via the immature [GodotNativeTools](https://github.com/GodotNativeTools/godot-rust).
+* No mature game engine written in pure Rust exists yet.
+    * Part of a mature solution will need to include a rich and robust editor. Examples can include:
+        * [Unreal Editor](https://docs.unrealengine.com/en-US/Engine/Editor/index.html)
+        * [Unity Editor](https://docs.unity3d.com/Manual/index.html)
+    * [Amethyst](https://github.com/amethyst/amethyst) is active and [has a roadmap](https://amethyst.rs/roadmap) for becoming production-ready.
 
 ## Geometry
 
