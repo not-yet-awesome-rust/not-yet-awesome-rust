@@ -202,3 +202,11 @@ There is yet to be a library that handles all of these:
 * Is *fast*
 
 For more feature and performance comparisons for existing Rust XML crates, see [`choose-your-xml-rs`](https://github.com/RazrFalcon/choose-your-xml-rs).
+
+## Game Development
+
+### Game Engines supporting Rust usage
+
+* Only [Godot Engine](https://godotengine.org/) allows Rust usage via [GodotNativeTools](https://github.com/GodotNativeTools/godot-rust). This is however not yet mature enough and breaking changes have to be expected in the API. Also Godot Engine itself is not yet mature enough to be used in production like [Unreal Engine](https://www.unrealengine.com/) and [Unity3D](https://unity.com/) are.
+### Game Engines written in Rust
+* [Amethyst](https://github.com/amethyst/amethyst) seems to be the most promising one. It is however nowhere near stable and it doesn't have an editor which is the tool most graphic and level designers use most.
