@@ -57,7 +57,6 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
         - [Google API](#google-api)
     - [XML](#xml)
 
-
 ## Documentation
 
 ### Stack Overflow
@@ -92,7 +91,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * ~~A concurrent `std::collections::HashMap`-like structure has not been fully developed yet.~~
     * ~~[`concurrent-hashmap`](https://crates.io/crates/concurrent-hashmap) is still missing methods like `iter_mut`, `entry`, `drain`, and `clear` from the original `HashMap` interface.~~
     * ~~[`evmap`](https://crates.io/crates/evmap) is a different design around eventual consistency, and so departs from the normal `HashMap` interface.~~
-    
+
     [`dashmap`](https://crates.io/crates/dashmap) is intended to fit this use case exactly.
 
 ## Dynamic programming analysis/instrumentation
@@ -167,7 +166,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 * A **stable** Rust interpreter does not yet exist, which would made code exploration easier.
     * [`miri`](https://github.com/solson/miri) seems to be a step in the right direction -- it just needs some love!
-* No debugging experience offers integration with `rustdoc`, which would 
+* No debugging experience offers integration with `rustdoc`, which would
 * A rustdoc backend for generating [zeal](https://zealdocs.org/)/
   [dash](https://kapeli.com/dash) docsets is missing.
 
