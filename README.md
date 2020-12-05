@@ -111,7 +111,8 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * Integration with existing mature game engines is poor at time of writing.
     * [Unreal Engine](https://www.unrealengine.com/) has had [some prior work](https://ejmahler.github.io/rust_in_unreal/) accessible by making an Unreal account, but nothing has been made freely public at time of writing.
     * [Unity3D](https://unity.com/) currently has no published crates for Rust interop.
-    * [Godot Engine](https://godotengine.org/) allows Rust interop via the immature [GodotNativeTools](https://github.com/GodotNativeTools/godot-rust).
+    * [Godot Engine](https://godotengine.org/) allows Rust interop via [godot-rust](https://github.com/godot-rust/godot-rust). Authors' [note](https://github.com/godot-rust/godot-rust#stability) on stability: 
+        > The bindings cover most of the exposed API of Godot 3.2, and are being used on a number of projects in development, but we still expect non-trivial breaking changes in the API in the coming releases.
 * No mature game engine written in pure Rust exists yet.
     * Part of a mature solution will need to include a rich and robust editor. Examples can include:
         * [Unreal Editor](https://docs.unrealengine.com/en-US/Engine/Editor/index.html)
