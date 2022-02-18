@@ -201,7 +201,12 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * Generation of Google bindings using [`googleapis`](https://github.com/googleapis/googleapis) and gRPC would be more performant than using JSON web requests to the Google API, as with [`google-apis-rs` service](http://byron.github.io/google-apis-rs/).
 * There is room for more idiomatic APIs for Google in general. [`google-apis-rs`](http://byron.github.io/google-apis-rs/)  uses the [Google Discovery service](https://developers.google.com/discovery) to expose the vast majority of Google Services, but they can be difficult to grok for beginners or someone unfamiliar with Google APIs in general.
 
-### XML
+### Twitter API v2
+
+* There exists library support for version 1 of the Twitter API, e.g. [egg-mode](https://github.com/egg-mode-rs/egg-mode).
+* However the API v2 has been stable since [November 2021](https://developer.twitter.com/en/support/twitter-api/v2), but currently no Rust crate implements this.
+
+## XML
 
 There is yet to be a library that handles all of these:
 
