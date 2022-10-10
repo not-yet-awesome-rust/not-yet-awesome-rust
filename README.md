@@ -119,7 +119,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
         * [Unity Editor](https://docs.unity3d.com/Manual/index.html)
     * [Amethyst](https://github.com/amethyst/amethyst) is active and [has a roadmap](https://amethyst.rs/roadmap) for becoming production-ready.
     * [Bevy](https://bevyengine.org/) is a new project built with the learnings of the Amethyst project. See the [roadmap here.](https://github.com/bevyengine/bevy/projects/1)
-    * [RG3D](https://github.com/mrDIMAS/rg3d), a 3D game engine with an example [3D FPS game](https://github.com/mrDIMAS/rusty-shooter) built using it.
+    * [Fyrox](https://github.com/FyroxEngine/Fyrox) is a 3D + 2D game engine which includes a [full graphical editor](https://github.com/FyroxEngine/Fyrox#editor), and an example [3D FPS game](https://github.com/mrDIMAS/StationIapetus) built using it.
 
 ## Geometry
 
