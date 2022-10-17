@@ -117,7 +117,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
     * Part of a mature solution will need to include a rich and robust editor. Examples can include:
         * [Unreal Editor](https://docs.unrealengine.com/en-US/Engine/Editor/index.html)
         * [Unity Editor](https://docs.unity3d.com/Manual/index.html)
-    * [Amethyst](https://github.com/amethyst/amethyst) is active and [has a roadmap](https://amethyst.rs/roadmap) for becoming production-ready.
+    * ~~[Amethyst](https://github.com/amethyst/amethyst) is active and [has a roadmap](https://amethyst.rs/roadmap) for becoming production-ready.~~ Halted development.
     * [Bevy](https://bevyengine.org/) is a new project built with the learnings of the Amethyst project. See the [roadmap here.](https://github.com/bevyengine/bevy/projects/1)
     * [Fyrox](https://github.com/FyroxEngine/Fyrox) is a 3D + 2D game engine which includes a [full graphical editor](https://github.com/FyroxEngine/Fyrox#editor), and an example [3D FPS game](https://github.com/mrDIMAS/StationIapetus) built using it.
 
