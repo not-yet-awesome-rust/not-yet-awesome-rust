@@ -216,4 +216,4 @@ There is yet to be a library that handles all of these:
 * Option to preserve input style
 * Is *fast*
 
-For more feature and performance comparisons for existing Rust XML crates, see [`choose-your-xml-rs`](https://github.com/RazrFalcon/choose-your-xml-rs).
+For more feature and performance comparisons for existing Rust XML crates, see [`choose-your-xml-rs`](https://github.com/tafia/choose-your-xml-rs).
