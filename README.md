@@ -153,7 +153,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 ### Networking and Protocols
 
-* [AMQP 1.0](https://www.amqp.org/resources/specifications) - While there are several libraries for AMQP 0.9.1, the AMQP 1.0 spec represents a significant departure from the previous version.
+* ~~[AMQP 1.0](https://www.amqp.org/resources/specifications) - While there are several libraries for AMQP 0.9.1, the AMQP 1.0 spec represents a significant departure from the previous version.~~ [fe2o3-amqp](https://github.com/minghuaw/fe2o3-amqp) implements the AMQP 1.0 protocol for both client side and server/listener side.
 
 ### Parsers/Emitters
 
