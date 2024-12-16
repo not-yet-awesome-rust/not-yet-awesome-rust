@@ -78,7 +78,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 
 ## Data processing
 
-* DDS library [wiki](https://en.wikipedia.org/wiki/Data_Distribution_Service)
+* ~~DDS library [wiki](https://en.wikipedia.org/wiki/Data_Distribution_Service)~~ [`jhelovuo/RustDDS`](https://github.com/jhelovuo/RustDDS) and [`s2e-systems/dust-dds`](https://github.com/s2e-systems/dust-dds) now exist!
 * ~~[HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) (see also [Wikipedia](https://support.hdfgroup.org/HDF5/) and [this Reddit post](https://www.reddit.com/r/rust/comments/7r30r3/maintained_crate_for_hdf5_bindings/))~~ A stable version of [`hdf5`](https://github.com/aldanor/hdf5-rust) crate has been released and is now [available](https://crates.io/crates/hdf5) on crates.io.
 * A good stream processing pipeline with back pressure doesn't yet exist for an asynchronous data processing pipeline
     * [RxRust](https://github.com/ReactiveX/RxRust) is an older attempt to implement this according to the [reactive streams](http://www.reactive-streams.org/#the-problem) model -- it currently seems closest to this use case.
